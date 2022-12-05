@@ -22,7 +22,7 @@ npm install
 4. Run the app
 
 ```bash
-npm run dev
+npm run start
 ```
 
 ## ⭐ Contributing
