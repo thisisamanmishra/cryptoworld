@@ -10,7 +10,7 @@ git clone https://github.com/thisisamanmishra/cryptoworld.git
 2. Change the working directory
 
 ```bash
-cd DevEmpire
+cd cryptoworld
 ```
 
 3. Install dependencies
