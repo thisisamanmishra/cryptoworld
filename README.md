@@ -19,11 +19,11 @@ You can refer to the following articles on the basics of Git and Github and also
 
 - Take a look at the Existing [Issues](https://github.com/thisisamanmishra/cryptoworld/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Fork the Repo and work on the issue which is assigned to you.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added if necessary.
 
 ## 🛠️ To work with this repo
-Star and Fork the Repo 🌟 and this will keep us motivated.
+Star and Fork the Repo 🌟 and this will keep me motivated.
 
 1. Clone the repository
 
@@ -43,7 +43,9 @@ cd cryptoworld
 npm install
 ```
 
-4. Run the app
+4. Make the necessary changes
+
+5. Run the app
 
 ```bash
 npm run start
