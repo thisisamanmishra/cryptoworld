@@ -22,7 +22,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added if necessary.
 
-## 🛠️ Installation Steps
+## 🛠️ To work with this repo
 Star and Fork the Repo 🌟 and this will keep us motivated.
 
 1. Clone the repository
