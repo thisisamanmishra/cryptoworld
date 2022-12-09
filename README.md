@@ -1,7 +1,7 @@
 
 ## 📌 Introduction
 
-A place where you get every information about Cryptocurrency and news related to them. It is made using Reactjs and RapidAPI.
+A place where you get every information about Cryptocurrency and news related to them.It consists of various pages through which user get infromation about Exchanges,Total Cryptocurrencies, Market val and all news related to the Cryptocurrencies. It is made using Reactjs and RapidAPI.
 
 ## ⭐ How to get started?
 
