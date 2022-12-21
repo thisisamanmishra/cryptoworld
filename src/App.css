@@ -370,10 +370,118 @@ width: 70%;
     margin-top: 20px !important;
 }
 
-.footer {
+/* .footer {
     background-color: #001529;
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
+} */
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    width: 100vw;
+    padding-top: 20px;
+    height: 100px;
+    
 }
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+    color:#0071bd;
+}
+.footer-content p{
+    max-width: 800px;
+    margin: 2px 2px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #4472e8;
+    font-weight: 400;
+    font-size: 1rem;
+}
+ .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0 1rem 0;
+ }  
+
+ .socials li{
+    margin: 0 10px;
+}  
+
+  .socials a{
+    text-decoration: none;
+    border-color: #27bcda;
+    border: solid #27bcda 2px ;
+    padding: 7px;
+    border-radius: 6px;
+} 
+
+ .socials a i{
+    font-size: 1.4rem;
+    width: 32px;
+    transition: color .4s ease;
+} 
+
+.socials a:hover i{
+    color: aqua;
+}   
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+ .footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #5244e8;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
