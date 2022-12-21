@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable max-len */
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
+import { Switch, Route } from 'react-router-dom';
+import { Layout } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
@@ -32,7 +35,7 @@ const App = () => (
           </Switch>
         </div>
       </Layout>
-      <div className="footer">
+      {/* <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
           <Link to="/">
             Cryptoworld.
@@ -43,7 +46,22 @@ const App = () => (
           <Link to="/">Home</Link>
           <Link to="/news">News</Link>
         </Space>
-      </div>
+      </div> */}
+      <footer>
+        <div className="footer-content">
+          <h3>CRYPTOWORLD</h3>
+          <p>Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers a look at whats ahead with high-profile interviews, explainers and unique stories from the ever-changing crypto industry.</p>
+          <ul className="socials">
+            <li><a href="#"><i className="fa fa-facebook" /></a></li>
+            <li><a href="#"><i className="fa fa-twitter" /></a></li>
+            <li><a href="#"><i className="fa fa-google-plus" /></a></li>
+            <li><a href="#"><i className="fa fa-youtube" /></a></li>
+            <li><a href="#"><i className="fa fa-linkedin-square" /></a></li>
+          </ul>
+
+        </div>
+
+      </footer>
     </div>
   </div>
 );
