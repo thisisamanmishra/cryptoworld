@@ -58,7 +58,17 @@ const App = () => (
             <li><a href="#"><i className="fa fa-youtube" /></a></li>
             <li><a href="#"><i className="fa fa-linkedin-square" /></a></li>
           </ul>
-
+          <div className="footer-bottom">
+            <p>copyright &copy;2022 <a href="#">CryptoWorld</a>  </p>
+          </div>
+          <div className="footer-menu">
+            <ul className="f-menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
         </div>
 
       </footer>
