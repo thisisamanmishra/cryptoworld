@@ -2,6 +2,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable max-len */
 import React from 'react';
+import { BsGoogle } from 'react-icons/bs';
+import 'font-awesome/css/font-awesome.min.css';
+// import {fa-facebook} from '@fortawesome/react-fontawesome';
 import { Switch, Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
@@ -50,11 +53,11 @@ const App = () => (
       <footer>
         <div className="footer-content">
           <h3>CRYPTOWORLD</h3>
-          <p>Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers a look at whats ahead with high-profile interviews, explainers and unique stories from the ever-changing crypto industry.</p>
+          <p>A place where you get every information about Cryptocurrency and news related to them. It consists of various pages through which user get infromation about Exchanges,Total Cryptocurrencies, Market val and all news related to the Cryptocurrencies. It is made using Reactjs and RapidAPI.</p>
           <ul className="socials">
             <li><a href="#"><i className="fa fa-facebook" /></a></li>
             <li><a href="#"><i className="fa fa-twitter" /></a></li>
-            <li><a href="#"><i className="fa fa-google-plus" /></a></li>
+            <li><a href="#"><BsGoogle /></a></li>
             <li><a href="#"><i className="fa fa-youtube" /></a></li>
             <li><a href="#"><i className="fa fa-linkedin-square" /></a></li>
           </ul>
