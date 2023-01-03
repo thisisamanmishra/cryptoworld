@@ -19,10 +19,9 @@ const News = ({ simplified }) => {
   if (!cryptoNews?.value) return <Loader />;
 
   return (
-    
     <Row gutter={[24, 24]}>
       {!simplified && (
-        <Col span={24} style ={{display:'flex',justifyContent:'center'}}>
+        <Col span={24} style={{ display: 'flex', justifyContent: 'center' }}>
           <Select
             showSearch
             className="select-news"
@@ -30,7 +29,6 @@ const News = ({ simplified }) => {
             optionFilterProp="children"
             onChange={(value) => setNewsCategory(value)}
             filterOption={(input, option) => option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
-            
           >
             <Option value="Cryptocurency">Cryptocurrency</Option>
             {data?.data?.coins?.map((currency) => <Option value={currency.name}>{currency.name}</Option>)}
@@ -39,7 +37,7 @@ const News = ({ simplified }) => {
       )}
       {cryptoNews.value.map((news, i) => (
         <Col xs={24} sm={12} lg={8} key={i}>
-          <Card hoverable className="news-card" style = {{borderRadius:'10px',backgroundColor:'#c6aae3'}}>
+          <Card hoverable className="news-card" style={{ borderRadius: '10px', backgroundColor: '#c6aae3' }}>
             <a href={news.url} target="_blank" rel="noreferrer">
               <div className="news-image-container">
                 <Title className="news-title" level={4}>{news.name}</Title>
